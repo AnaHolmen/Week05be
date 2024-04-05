@@ -23,15 +23,17 @@ public class App {
         
         // Creating an instance of SpacedLogger
         SpacedLogger secondLog = new SpacedLogger();
+     
+       // Testing log and error methods of SpacedLogger
+       secondLog.log("Hello");
+       System.out.println();
+       System.out.println("________________");
         
-        // Testing log and error methods of SpacedLogger
-        secondLog.log("Hello");
-        System.out.println("________________");
-        
-        System.out.println();    /*for line break */
-        
-        
-        secondLog.error("Hello");
+       System.out.println();   /*for line break */
+       
+       
+       secondLog.error("Hello");
+       System.out.println();
         System.out.println("________________");
         
         
@@ -39,14 +41,16 @@ public class App {
         
         
        
-        secondLog.log("Hola");
-        System.out.println("________________");
-        
-        
+      secondLog.log("Hola");
+      System.out.println();
+       System.out.println("________________");
+     
+      
         System.out.println();  /*for line break */
-        
        
-        secondLog.error("Hola");
-        System.out.println("________________");
-    }
+       
+       secondLog.error("Hola");
+       System.out.println();
+       System.out.println("________________");
+   }
 }
